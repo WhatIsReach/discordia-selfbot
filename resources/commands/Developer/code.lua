@@ -1,3 +1,5 @@
+--Credit to SinisterRectus (https://github.com/SinisterRectus/Discordia)
+
 local function dump(...)
 	local args = table.pack(...)
 	local content = ""
