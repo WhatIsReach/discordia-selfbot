@@ -13,9 +13,9 @@ return
 			bot:setAvatar("data:image/png;base64,".._G.class.base64.encode(av))
 		end)
 		if success then
-			command:success("","Successfully changed the avatar.")
+			command:success("Successfully changed the avatar.")
 		else
-			command:error("","Could not change the avatar.")
+			command:error("Could not change the avatar.")
 			p(result)
 		end
 	end
